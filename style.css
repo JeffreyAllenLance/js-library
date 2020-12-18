@@ -237,7 +237,7 @@ button {
   transition: all 0.3s ease 0s;
 }
 .modal__close:hover {
-  transform: rotate(360deg) scale(1.2);
+  transform: scale(1.2);
   cursor: pointer;
 }
 

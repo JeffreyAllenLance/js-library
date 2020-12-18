@@ -259,7 +259,7 @@ button {
   transition: all 0.3s ease 0s;
 
     &:hover {
-      transform: rotate(360deg) scale(1.2);
+      transform: scale(1.2);
       cursor: pointer;
     }
 }
