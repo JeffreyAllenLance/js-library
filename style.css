@@ -149,14 +149,16 @@ button {
 
 .book__remove-btn {
   align-self: flex-end;
-  font-size: 1.4rem;
-  padding: 0 0.4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #303841;
+  padding: 0.2rem 0.5rem;
   background-color: rgba(169, 169, 169, 0.7);
   border-radius: 50%;
   transition: transform 0.3s ease-in-out;
 }
 .book__remove-btn:hover {
-  transform: rotate(180deg) scale(1.5);
+  transform: rotate(360deg) scale(1.5);
 }
 
 .add-book {
@@ -227,14 +229,15 @@ button {
 .modal__close {
   background-color: #3a4750;
   color: #eeeeee;
-  padding: 0 0.5rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 50%;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
+  font-weight: bold;
   margin-left: auto;
   transition: all 0.3s ease 0s;
 }
 .modal__close:hover {
-  transform: rotate(180deg) scale(1.2);
+  transform: rotate(360deg) scale(1.2);
   cursor: pointer;
 }
 

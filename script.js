@@ -104,7 +104,7 @@ function addRemoveBtn(book) {
     let removeBtn = document.createElement('button');
     removeBtn.classList.add('book__remove-btn');
     removeBtn.setAttribute('aria-label', 'Remove From Library')
-    removeBtn.innerHTML = '&times;'
+    removeBtn.innerHTML = 'X'
     book.appendChild(removeBtn);
     removeBtn.addEventListener("click", removeBookFromLibrary);
 }
