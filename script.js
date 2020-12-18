@@ -6,8 +6,10 @@ const form = document.querySelector('.modal__form');
 
 let myLibrary;
 
+// Initialize empty library if local storage is empty, otherwise load from storage
 if (localStorage.getItem('library') == null) {
     myLibrary = [];
+    // Set default books
     const book1 = new Book("Dark Matter", "Aase Berg", "188", true);
     const book2 = new Book("Kids of the Black Hole", "Marty Cain", "67", false);
 
@@ -39,11 +41,13 @@ function Book(title, author, pages, read) {
 }
 
 function addBookToLibrary() {
+    // Grab form values
     let title = document.querySelector('#title').value;
     let author = document.querySelector('#author').value;
     let pages = document.querySelector('#pages').value;
     let read = document.querySelector('#read-check').checked;
 
+    // Create new book and add to library + local storage
     let book = new Book(title, author, pages, read);
     myLibrary.push(book);
     localStorage.setItem('library', JSON.stringify(myLibrary));
@@ -64,6 +68,8 @@ function displayBook(book) {
 function createBook(index) {
     let book = document.createElement('div');
     book.classList.add('book');
+
+    // Give each book a data attribute corresponding to its library array index
     book.setAttribute('data-index', `${index}`);
 
     fillBook(book, index);

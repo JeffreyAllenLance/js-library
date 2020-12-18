@@ -1,3 +1,6 @@
+/* Color Variables */
+/* Font Variables */
+/* Default Styles */
 html {
   box-sizing: border-box;
 }
@@ -27,6 +30,7 @@ button {
   cursor: pointer;
 }
 
+/* Screen Reader Styles */
 .sr-only {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
@@ -41,6 +45,7 @@ button {
   white-space: nowrap !important;
 }
 
+/* Container */
 .wrapper {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -50,12 +55,14 @@ button {
   overflow: hidden;
 }
 
+/* Header */
 .header {
   width: 100%;
   text-align: center;
   margin: 4rem 0;
 }
 
+/* Main */
 .library {
   width: 100%;
   display: flex;
@@ -164,6 +171,7 @@ button {
   margin-bottom: auto;
 }
 
+/* Modal Form */
 .modal-overlay {
   display: none;
   flex-direction: column;
@@ -304,6 +312,7 @@ button {
   cursor: pointer;
 }
 
+/* Footer */
 .footer {
   font-size: 1rem;
   text-align: center;

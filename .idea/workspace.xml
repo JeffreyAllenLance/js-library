@@ -34,7 +34,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608133468422</updated>
-      <workItem from="1608133469491" duration="44410000" />
+      <workItem from="1608133469491" duration="45428000" />
     </task>
     <servers />
   </component>
@@ -138,10 +139,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="901" height="340" key="GridCell.Tab.3.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608328778938" />
-    <state x="273" y="191" width="1016" height="742" key="SettingsEditor" timestamp="1608133887697">
+    <state x="273" y="171" width="1016" height="742" key="SettingsEditor" timestamp="1608331088734">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="273" y="191" width="1016" height="742" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1608133887697" />
+    <state x="273" y="171" width="1016" height="742" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1608331088734" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/js_library$Library.dat" NAME="Library Coverage Results" MODIFIED="1608248664408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
